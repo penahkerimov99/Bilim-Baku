@@ -1,0 +1,18 @@
+.language {
+  width: 56px;
+  height: 56px;
+  border-radius: 37px;
+  color: #2D00F7;
+  font-family: 'Kanit','sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #b1b1af;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1rem;
+  cursor: pointer;
+  margin: 22px 12px;
+}
+/*# sourceMappingURL=style.css.map */
