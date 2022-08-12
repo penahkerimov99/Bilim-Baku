@@ -1,8 +1,8 @@
 .navBar {
-  position: absolute;
+  position: fixed;
   width: 1240px;
   height: 101px;
-  left: 80px;
+  left: 65px;
   top: 24px;
   z-index: 111;
   background-color: #fff;
@@ -13,5 +13,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /*# sourceMappingURL=style.css.map */

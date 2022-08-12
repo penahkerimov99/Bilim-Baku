@@ -1,0 +1,11 @@
+.Cloud-section {
+  width: 100%;
+  height: 271px;
+  background-image: url(../../assets/Vector.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 111;
+  top: 90%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,6 +1,8 @@
 import React from 'react'
 import HeaderImage from '../Headerimage';
 import Navbar from '../Navbar';
+import HeaderTitles from '../Headertitles';
+import Cloud from '../Headerbottom';
 
 
 const Header = () => {
@@ -8,6 +10,8 @@ const Header = () => {
     <>
     <HeaderImage/>
     <Navbar/>
+    <HeaderTitles/>
+    <Cloud/>
     </>
   )
 }

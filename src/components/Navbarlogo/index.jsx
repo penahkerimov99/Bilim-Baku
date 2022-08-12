@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navlogo = () => {
   return (
-    <div className='logo'></div>
+    <div className='Navlogo'></div>
   )
 }
 
