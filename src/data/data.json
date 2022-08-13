@@ -3,7 +3,7 @@
         "id": 1,
         "logo": "../assets/logo1.png",
         "description": "Məktəblilərə  hazırlanmış təlimlər",
-        "about": "They include an hour of workshop training provided to private and public schools together  with exhibition hall and planetarium trainings, if they are present in that center.",
+        "about": "They include an hour of workshop training provided to private and public schools together  with exhibition hall and planetarium trainings, if they are present in that center."
         
     },
 
@@ -11,21 +11,21 @@
         "id": 2,
         "logo": "../assets/logo2.png",
         "description": "Tematik laboratoriya təlimləri",
-        "about": "They include an hour of workshop training provided to private and public schools together  with exhibition hall and planetarium trainings, if they are present in that center.",
+        "about": "They include an hour of workshop training provided to private and public schools together  with exhibition hall and planetarium trainings, if they are present in that center."
         
     },
     {
         "id": 3,
         "logo": "../assets/logo3.png",
         "description": "Uzun müddətli təlimlər",
-        "about": "They include an hour of workshop training provided to private and public schools together  with exhibition hall and planetarium trainings, if they are present in that center.",
+        "about": "They include an hour of workshop training provided to private and public schools together  with exhibition hall and planetarium trainings, if they are present in that center."
         
     },
     {
         "id": 4,
         "logo": "../assets/logo1.png",
         "description": "Onlayn laboratoriya təlimləri",
-        "about": "They include an hour of workshop training provided to private and public schools together  with exhibition hall and planetarium trainings, if they are present in that center.",
+        "about": "They include an hour of workshop training provided to private and public schools together  with exhibition hall and planetarium trainings, if they are present in that center."
         
     }
 
