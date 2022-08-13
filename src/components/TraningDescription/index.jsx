@@ -1,5 +1,5 @@
 import React from 'react'
 
-export const TraningDescription = ({text}) => {
-  return <h2 className='description'>{text}</h2>
+export const TraningDescription = ({description}) => {
+  return (<h2 className='description'>{description}</h2>)
 }

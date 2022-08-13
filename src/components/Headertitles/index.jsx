@@ -6,7 +6,7 @@ import './style.scss'
 
 const HeaderTitles = () => {
     return (
-        <div className='description'>
+        <div className='Description'>
             <Text variant='first-title'>
                 Xəbərlər
             </Text>

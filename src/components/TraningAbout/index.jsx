@@ -1,6 +1,7 @@
 import React from 'react'
 
-export const TraningAbout = ({aboutTitle}) => {
-  return (<p>{aboutTitle}</p>
+export const TraningAbout = ({about}) => {
+  return (
+    <p>{about}</p>
   )
 }

@@ -4,10 +4,12 @@ import {TraningLogo} from '../TraningLogo'
 import {TraningDescription} from '../TraningDescription'
 import { TraningAbout } from '../TraningAbout'
 
-export const Jobcard = (id, logo, title, about) => {
+export const Jobcard = ({logo, description , about}) => {
+  
   return (<div className='jobcard'>
     <TraningLogo logo = {logo}/>
-    <TraningDescription text = {title}/> 
-    <TraningAbout about = {about} /> </div>
+    <TraningDescription description = {description}/> 
+    <TraningAbout about = {about} />
+     </div>
   )
 }
