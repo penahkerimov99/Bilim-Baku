@@ -17,7 +17,7 @@ export const Section1 = ({data})=>{
         about = {x.about}
         bgImg = {x.background}
         linkone = {x.showAll}
-        linktwo = {x.narrow}
+        Color = {x.linkColor}
         />
      )
 

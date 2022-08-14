@@ -5,13 +5,13 @@ import {TraningDescription} from '../TraningDescription'
 import { TraningAbout } from '../TraningAbout'
 import { TraningLink } from '../TraningLink'
 
-export const Jobcard = ({logo, description , about, bgImg, linkone, linktwo}) => {
+export const Jobcard = ({logo, description , about, bgImg, linkone, Color}) => {
   
   return (<div className='jobcard' style={{background:bgImg}}>
     <TraningLogo logo = {logo}/>
     <TraningDescription description = {description}/> 
     <TraningAbout about = {about} />
-    <TraningLink link1 = {linkone} link2= {linktwo}/>
+    <TraningLink link1 = {linkone} Color= {Color}/>
     
      </div>
   )

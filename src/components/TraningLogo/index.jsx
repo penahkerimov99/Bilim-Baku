@@ -2,7 +2,10 @@ import React from 'react'
 import './style.scss'
 
 export const TraningLogo = ({logo}) => {
+  return  <div className='logoImage'>
   
-  return  <img className='logoImage' src={logo} alt="" />
+      <img src={`../../assets/${logo}`}/> 
+
+  </div>
   
 }
