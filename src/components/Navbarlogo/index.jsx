@@ -6,5 +6,4 @@ const Navlogo = () => {
     <div className='Navlogo'></div>
   )
 }
-
 export default Navlogo

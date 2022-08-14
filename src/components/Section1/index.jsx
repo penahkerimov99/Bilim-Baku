@@ -11,9 +11,13 @@ export const Section1 = ({data})=>{
      {data.map((x)=>{
      return(
         <Jobcard 
+        key={x.id}
         logo = {x.logo}
         description = {x.description}
         about = {x.about}
+        bgImg = {x.background}
+        linkone = {x.showAll}
+        linktwo = {x.narrow}
         />
      )
 

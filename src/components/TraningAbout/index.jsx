@@ -1,7 +1,8 @@
 import React from 'react'
+import './style.scss'
 
 export const TraningAbout = ({about}) => {
   return (
-    <p>{about}</p>
+    <p className='traning-about'>{about}</p>
   )
 }
