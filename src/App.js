@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <Layout>
         <Routes>
-          <Route path='/' element={<Home data = {data} />} />
+          <Route path='/' element={<Home data = {data} />}/>
           <Route path='about' element={<About />} />
-          <Route path='contact' element={<Contact />} />
+          <Route path='contact' element={<Contact />}/>
           <Route path='*' element={<NotFound />} />
         </Routes>
       </Layout>
