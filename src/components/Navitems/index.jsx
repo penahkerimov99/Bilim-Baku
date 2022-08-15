@@ -1,6 +1,5 @@
 import React from 'react'
 import NavButtons from './Navbuttons'
-import Language from './Languages'
 import {Button} from "../shared/Button"
 import "./style.scss"
 
