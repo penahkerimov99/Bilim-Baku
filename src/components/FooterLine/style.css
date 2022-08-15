@@ -1,0 +1,10 @@
+.footerLine {
+  width: 1140px;
+  height: 69px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: absolute;
+  left: 102px;
+  top: 1000px;
+}

@@ -1,0 +1,15 @@
+.input {
+  width: 495px;
+  height: 44px;
+  top: 44px;
+  left: 720px;
+  border-radius: 16px;
+  margin-left: 510px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  background: rgba(255, 255, 255, 0.32);
+  color: white;
+  cursor: pointer;
+}

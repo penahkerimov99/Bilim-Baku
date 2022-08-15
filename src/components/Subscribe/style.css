@@ -1,0 +1,10 @@
+.subscribe {
+  width: 1440px;
+  height: 140px;
+  position: absolute;
+  background: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

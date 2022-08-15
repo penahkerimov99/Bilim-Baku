@@ -1,0 +1,17 @@
+.text {
+  color: white;
+  font-size: 20px;
+  width: 536px;
+  height: 76px;
+  left: 102px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  justify-content: center;
+  align-items: center;
+}

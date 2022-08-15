@@ -1,0 +1,13 @@
+input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  background-color: #f8f8f8;
+  border-radius: 16px;
+  left: 706px;
+  top: 403px;
+  width: 500px;
+  height: 53px;
+  border: 1px solid transparent;
+}
