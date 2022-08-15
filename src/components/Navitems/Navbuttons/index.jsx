@@ -1,23 +1,62 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './style.scss'
-
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
+import "./style.scss";
 
 const NavButtons = () => {
   return (
-    <div className='nav-items'>
-    
-    <ul>
-    <li><Link className='link2' to="/">Ana səhifə</Link></li>
-    <li><Link className='link' to="/about">Haqqımızda</Link></li>
-    <li><Link className='link' to="/labs">Laboratoriyalar</Link></li>
-    <li><Link className='link' to="/centers">Mərkəzlər</Link></li>
-    <li><Link className='link' to="/news">Xəbərlər</Link></li>
-    <li><Link className='link' to="/contact">Günlük əlaqə</Link></li>
-    </ul>
-
+    <div className="nav-items">
+      <ul>
+        <li>
+          <NavLink
+            className={({ isActive }) => (isActive ? "active" : "non-active")}
+            to="/"
+          >
+            Ana səhifə
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            className={({ isActive }) => (isActive ? "active" : "non-active")}
+            to="/about"
+          >
+            Haqqımızda
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            className={({ isActive }) => (isActive ? "active" : "non-active")}
+            to="/labs"
+          >
+            Laboratoriyalar
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            className={({ isActive }) => (isActive ? "active" : "non-active")}
+            to="/centers"
+          >
+            Mərkəzlər
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            className={({ isActive }) => (isActive ? "active" : "non-active")}
+            to="/news"
+          >
+            Xəbərlər
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            className={({ isActive }) => (isActive ? "active" : "non-active")}
+            to="/contact"
+          >
+            Günlük əlaqə
+          </NavLink>
+        </li>
+      </ul>
     </div>
-  )
-}
+  );
+};
 
-export default NavButtons
+export default NavButtons;
