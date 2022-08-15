@@ -1,6 +1,7 @@
 import React from "react";
 import { HomeFirstBackground } from "../components/HomeFisrtBackground";
 import { Section1 } from "../components/Section1";
+import {Section2} from "../components/Section2"
 import "../styles/placeholder.scss"
 
 export const Home = ({data}) => {
@@ -10,6 +11,8 @@ export const Home = ({data}) => {
     <>
       <HomeFirstBackground />
       <Section1 data={data}/>
+      <Section2/>
+    
     </>
   );
 };

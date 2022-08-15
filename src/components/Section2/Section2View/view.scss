@@ -1,0 +1,43 @@
+.section2View{
+   width: 48.5%;
+   height: 38.9rem;
+   position: relative;
+}
+.gabriel{
+   background-image: url(../../../../public/assets/gabriel-baranski-vGICUyYW2CE-unsplash.jpg);
+   width: 54%;
+   height: 56%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 0.89;
+   mix-blend-mode: overlay;
+   border-radius: 25px;
+   position: absolute;
+   top: 0;
+   right: 0;
+   z-index: 11;
+}
+.hand{
+   background-image: url(../../../../public/assets/header.jpg);
+   width: 60%;
+   height: 52%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 25px;
+   position: absolute;
+   z-index: 22;
+   bottom: 0;
+   left: 0;
+}
+.playing{
+width: 40%;
+height: 15%;
+background-color: white;
+border-radius: 20px;
+position: absolute;
+z-index: 22;
+bottom: 40px;
+right: 30px;
+box-shadow: 46px 3px 50px 1px #888888;
+
+}
