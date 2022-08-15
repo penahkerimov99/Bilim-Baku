@@ -4,12 +4,21 @@ import {Main} from './components/Main'
 import data from './data/data.json'
 import './App.css';
 import { useState } from 'react';
+import { Layout } from './components';
+import { Route, Routes } from 'react-router-dom';
+import { Home, About, Contact, NotFound } from './pages';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Main data={data}/>
+      <Layout>
+        <Routes>
+          <Route path='/' element={<Home data = {data} />} />
+          <Route path='about' element={<About />} />
+          <Route path='contact' element={<Contact />} />
+          <Route path='*' element={<NotFound />} />
+        </Routes>
+      </Layout>
     </div>
   );
 }
