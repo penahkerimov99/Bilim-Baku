@@ -1,0 +1,66 @@
+@import "../../../styles/variable.scss";
+
+.button {
+    padding: 1rem 2rem;
+    border-radius: 40px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+// BACKGROUNDS
+
+.b-purple{
+    background-color: $color-purple;
+}
+.b-yellow{
+    background-color: $color-yellow;
+}
+.b-green{
+    background-color: $color-green;
+}
+.b-lightblue{
+    background-color: $color-lightblue;
+}
+.b-red{
+    background-color: $color-red;
+}
+.b-blue{
+    background-color: $color-blue;
+}
+.b-black{
+    background-color: $color-black;
+}
+.b-white{
+    background-color: rgba($color: #ffffff, $alpha: 0);
+}
+
+// COLORS 
+
+.c-white{
+    color: $color-white;
+}
+.c-black{
+    color: $color-black;
+}
+.c-purple{
+    color: $color-purple;
+}
+
+// BORDERS
+
+.none{
+    border: none;
+}
+.border{
+    border: 2px solid #ffffff;
+}
+
+// FONT SIZE
+
+.s-size{
+    font-size: 14px;
+}
+
+.m-size{
+    font-size: 1rem;
+}
