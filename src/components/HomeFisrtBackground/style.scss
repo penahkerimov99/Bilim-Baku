@@ -1,6 +1,7 @@
 .home-first-page {
   height: 100vh;
   width:  100%;
+  display: flex;
   background-image: url("../../../public/assets/header.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -41,10 +42,10 @@
     
   }
   .cloud {
-    height: 210px;
+    height: 30%;
+    max-height: 210px;
     width: 100%;
-    position: absolute;
-    bottom: 0;
+    align-self: flex-end;
     background-image: url("../../../public/assets/Vector.png");
     background-repeat: no-repeat;
     background-size: cover;
