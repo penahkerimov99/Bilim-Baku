@@ -1,18 +1,20 @@
 import React from "react";
+import { AboutInfo } from "../components/AboutInfo";
 import { HomeFirstBackground } from "../components/HomeFisrtBackground";
-import { Section1 } from "../components/Section1";
-import {Section2} from "../components/Section2"
-import "../styles/placeholder.scss"
+import { Trainings } from "../components/Trainings";
+import "../styles/placeholder.scss";
+import "../../src/styles/placeholder.scss"
 
-export const Home = ({data}) => {
+export const Home = ({ data }) => {
   // useParams: gives us url params
 
   return (
     <>
       <HomeFirstBackground />
-      <Section1 data={data}/>
-      <Section2/>
-    
+      <div className="container">
+        <Trainings data={data} />
+        <AboutInfo />
+      </div>
     </>
   );
 };

@@ -1,6 +1,5 @@
 import React from 'react';
 import data from './data/data.json'
-import './App.css';
 import { Layout } from './components';
 import { Route, Routes } from 'react-router-dom';
 import { Home, About, Contact, NotFound } from './pages';

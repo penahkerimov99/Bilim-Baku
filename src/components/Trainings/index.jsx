@@ -6,7 +6,7 @@ import './style.scss'
 
 
 
-export const Section1 = ({data})=>{
+export const Trainings = ({data})=>{
     return <div className="section1">
      {data.map((x)=>{
      return(

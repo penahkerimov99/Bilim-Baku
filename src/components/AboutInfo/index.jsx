@@ -3,7 +3,7 @@ import { Section2About } from './Section2About/about'
 import { Section2View } from './Section2View/view'
 import './style.scss'
 
-export const Section2 = () => {
+export const AboutInfo = () => {
   return (
     <div className='section2'>
        <Section2View />
